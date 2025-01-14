@@ -29,6 +29,18 @@ body {
   color: var(--secondary-color)
 }
 
+.name-title {
+  display: flex;
+  align-self: center;
+  font-size: 3em;
+  gap: 14px;
+}
+
+.subheading {
+  display: flex;
+  align-self: center;
+}
+
 header,
 main,
 footer {
@@ -214,6 +226,12 @@ section {
 
 .link-item p {
   font-size: 0.9em;
+}
+
+.portfolio-footer {
+  display: flex;
+  align-self: center;
+  padding-bottom: 48px;
 }
 
 /* Responsive  */
